@@ -1,0 +1,869 @@
+
+<!-- Page Body
+   ==================================================================== -->
+   <div class="page-body">
+        <!-- Main Content
+           ================================================================ -->
+        <div class="main-content">
+           <!-- Main Content Container -->
+           <div class="main-content-container">
+              <!-- Slider Revolution -->
+          
+               <owl-carousel  [options]="SlideOptions" [items]="images" [carouselClasses]="['owl-theme', 'sliding']">
+                  <div class="item" *ngFor="let image of images;let i= index">
+                        <img class="slide-image" src="{{image.image}}" height="200px">
+                        <div class="cover">
+                            <div class="container">
+                                <div class="header-content">
+                                    <div class="line"></div>
+                                    <!-- <h2>{{image.text}}</h2> -->
+                                    <h1>{{image.text}}</h1>
+                                    <!-- <h4>We help entrepreneurs, start-ups and enterprises shape their ideas into products</h4> -->
+                                </div>
+                            </div>
+                         </div>
+                    </div>                    
+               </owl-carousel>
+               
+
+              <!-- /End Slider Revolution -->
+           
+              <div class="gfort-section">
+                 <!-- Section Container -->
+                 <div class="section-container">
+                    <!-- container -->
+                    <div class="container">
+                       <!-- row -->
+                       <div class="row">
+                          <!-- col-md-12 -->
+                          <div class="col-md-12">
+                             <!-- Section Title -->
+                             <div class="section-title text-center">
+                                <h2 class="section-main-title">DESTINATIONS</h2>
+                                <p class="section-subtitle">Travel far enough, you meet yourself.</p>
+                                <div class="hr-divider hr-divider-style-1"></div>
+                             </div>
+                             <!-- /End Section Title -->
+                          </div>
+                          <!-- /End col-md-12 -->
+                          <!-- col-md-12 -->
+                          <div class="col-md-12">
+                             <!-- gfort-tabs -->
+                             <div class="gfort-tabs gfort-tabs-center">
+                                <!-- Tab Panes -->
+                                <div class="tab-content">
+                                   <!-- Tab Pane -->
+                                   <div role="tabpanel" class="tab-pane fade in active" id="tab-1">
+                                      <!-- row -->
+                                      <div class="row">
+                                         <!-- Australia -->
+                                         <!-- col-md-3 -->
+                                         <div class="col-md-3">
+                                            <!-- Image Block -->
+                                            <div class="gfort-block image-block">
+                                               <!-- gfort Block Container -->
+                                               <div class="gfort-block-container">
+                                                  <!-- gfort Block Head -->
+                                                  <div class="gfort-block-head">
+                                                   <a (click)="GridSliderAus();" href="#modal-1" data-target="#modal-1" data-toggle="modal"><img src="../../assets/images/homeGrid/australiaGrid.jpg" alt="AUSTRALIA"></a>
+                                                  </div>
+                                                  <!-- /End gfort Block Head -->
+                                                  <!-- gfort Block Body -->
+                                                  <div class="gfort-block-body">
+                                                     <!-- gfort Block Title -->
+                                                     <div class="gfort-block-title">
+                                                        <h4>AUSTRALIA</h4>
+                                                     </div>
+                                                     <!-- /End gfort Block Title -->
+                                                     <!-- gfort Block Content -->
+                                                     <div class="gfort-block-content">
+                                                        <ul class="icon-list">
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> International reputation.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Industry oriented courses.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Excellent Weather
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Research focused &amp; technology driven education
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Attractive scholarships.
+                                                           </li>
+                                                        </ul>
+                                                        <a routerLink="/study-australia" class="btn btn-gfort">READ MORE</a>
+                                                     </div>
+                                                     <!-- /End gfort Block Content -->
+                                                  </div>
+                                                  <!-- /End gfort Block Body -->
+                                               </div>
+                                               <!-- /End gfort Block Container -->
+                                            </div>
+                                            <!-- /End Image Block -->
+                                         </div>
+                                         <!-- /End col-md-4 -->
+                                         <!-- France -->
+                                         <!-- col-md-3 -->
+                                         <div class="col-md-3">
+                                            <!-- Image Block -->
+                                            <div class="gfort-block image-block">
+                                               <!-- gfort Block Container -->
+                                               <div class="gfort-block-container">
+                                                  <!-- gfort Block Head -->
+                                                  <div class="gfort-block-head">
+                                                   <a (click)="GridSliderFr();" href="#modal-1" data-target="#modal-1" data-toggle="modal"><img src="../../assets/images/homeGrid/franceGrid.jpg" alt="FRANCE"></a>
+                                                  </div>
+                                                  <!-- /End gfort Block Head -->
+                                                  <!-- gfort Block Body -->
+                                                  <div class="gfort-block-body">
+                                                     <!-- gfort Block Title -->
+                                                     <div class="gfort-block-title">
+                                                        <h4>FRANCE</h4>
+                                                     </div>
+                                                     <!-- /End gfort Block Title -->
+                                                     <!-- gfort Block Content -->
+                                                     <div class="gfort-block-content">
+                                                        <ul class="icon-list">
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Most appealing destination.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> No 1 student city!
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> 4th wealthiest country.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Excellent environment.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Excellent placement opportunity.
+                                                           </li>
+                                                        </ul>
+                                                        <a routerLink="/study-france" class="btn btn-gfort">READ MORE</a>
+                                                     </div>
+                                                     <!-- /End gfort Block Content -->
+                                                  </div>
+                                                  <!-- /End gfort Block Body -->
+                                               </div>
+                                               <!-- /End gfort Block Container -->
+                                            </div>
+                                            <!-- /End Image Block -->
+                                         </div>
+                                         <!-- /End col-md-4 -->
+                                         <!-- Germany -->
+                                         <!-- col-md-3 -->
+                                         <div class="col-md-3">
+                                            <!-- Image Block -->
+                                            <div class="gfort-block image-block">
+                                               <!-- gfort Block Container -->
+                                               <div class="gfort-block-container">
+                                                  <!-- gfort Block Head -->
+                                                  <div class="gfort-block-head">
+                                                   <a (click)="GridSliderGer();" href="#modal-1" data-target="#modal-1" data-toggle="modal"><img src="../../assets/images/homeGrid/germanyGrid.jpg" alt="GERMANY"></a>
+                                                  </div>
+                                                  <!-- /End gfort Block Head -->
+                                                  <!-- gfort Block Body -->
+                                                  <div class="gfort-block-body">
+                                                     <!-- gfort Block Title -->
+                                                     <div class="gfort-block-title">
+                                                        <h4>GERMANY</h4>
+                                                     </div>
+                                                     <!-- /End gfort Block Title -->
+                                                     <!-- gfort Block Content -->
+                                                     <div class="gfort-block-content">
+                                                        <ul class="icon-list">
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Large number of prestigious universities.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Lowest Tuition Fees.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Excellent health care.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> World class degrees.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Scientifically oriented study
+                                                           </li>
+                                                        </ul>
+                                                        <a routerLink="/study-germany" class="btn btn-gfort">READ MORE</a>
+                                                     </div>
+                                                     <!-- /End gfort Block Content -->
+                                                  </div>
+                                                  <!-- /End gfort Block Body -->
+                                               </div>
+                                               <!-- /End gfort Block Container -->
+                                            </div>
+                                            <!-- /End Image Block -->
+                                         </div>
+                                         <!-- /End col-md-4 -->
+                                         <!-- Canada -->
+                                         <!-- col-md-3 -->
+                                         <div class="col-md-3">
+                                            <!-- Image Block -->
+                                            <div class="gfort-block image-block">
+                                               <!-- gfort Block Container -->
+                                               <div class="gfort-block-container">
+                                                  <!-- gfort Block Head -->
+                                                  <div class="gfort-block-head">
+                                                   <a (click)="GridSliderCan();" href="#modal-1" data-target="#modal-1" data-toggle="modal"><img src="../../assets/images/homeGrid/canadaGrid.jpg" alt="CANADA"></a>
+                                                  </div>
+                                                  <!-- /End gfort Block Head -->
+                                                  <!-- gfort Block Body -->
+                                                  <div class="gfort-block-body">
+                                                     <!-- gfort Block Title -->
+                                                     <div class="gfort-block-title">
+                                                        <h4>CANADA</h4>
+                                                     </div>
+                                                     <!-- /End gfort Block Title -->
+                                                     <!-- gfort Block Content -->
+                                                     <div class="gfort-block-content">
+                                                        <ul class="icon-list">
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Top-ranked education system
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> A multicultural country.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Strong growing economy.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Post-graduate work permits.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Permanent residency.
+                                                           </li>
+                                                        </ul>
+                                                        <a routerLink="/study-canada" class="btn btn-gfort">READ MORE</a>
+                                                     </div>
+                                                     <!-- /End gfort Block Content -->
+                                                  </div>
+                                                  <!-- /End gfort Block Body -->
+                                               </div>
+                                               <!-- /End gfort Block Container -->
+                                            </div>
+                                            <!-- /End Image Block -->
+                                         </div>
+                                         <!-- /End col-md-4 -->
+                                         <!-- Ireland  -->
+                                         <!-- col-md-3 -->
+                                         <div class="col-md-3">
+                                            <!-- Image Block -->
+                                            <div class="gfort-block image-block">
+                                               <!-- gfort Block Container -->
+                                               <div class="gfort-block-container">
+                                                  <!-- gfort Block Head -->
+                                                  <div class="gfort-block-head">
+                                                   <a (click)="GridSliderIre();" href="#modal-1" data-target="#modal-1" data-toggle="modal"><img src="../../assets/images/homeGrid/irelandGrid.jpg" alt="Ireland"></a>
+                                                  </div>
+                                                  <!-- /End gfort Block Head -->
+                                                  <!-- gfort Block Body -->
+                                                  <div class="gfort-block-body">
+                                                     <!-- gfort Block Title -->
+                                                     <div class="gfort-block-title">
+                                                        <h4>IRELAND</h4>
+                                                     </div>
+                                                     <!-- /End gfort Block Title -->
+                                                     <!-- gfort Block Content -->
+                                                     <div class="gfort-block-content">
+                                                        <ul class="icon-list">
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Highest Quality Education.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Internationally Recognized.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> A Young Vibrant Population.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Small, Safe And Friendly Country.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Sandwich Courses.
+                                                           </li>
+                                                        </ul>
+                                                        <a routerLink="/study-ireland" class="btn btn-gfort">READ MORE</a>
+                                                     </div>
+                                                     <!-- /End gfort Block Content -->
+                                                  </div>
+                                                  <!-- /End gfort Block Body -->
+                                               </div>
+                                               <!-- /End gfort Block Container -->
+                                            </div>
+                                            <!-- /End Image Block -->
+                                         </div>
+                                         <!-- /End col-md-4 -->
+                                         <!-- Italy -->
+                                         <!-- col-md-3 -->
+                                         <div class="col-md-3">
+                                            <!-- Image Block -->
+                                            <div class="gfort-block image-block">
+                                               <!-- gfort Block Container -->
+                                               <div class="gfort-block-container">
+                                                  <!-- gfort Block Head -->
+                                                  <div class="gfort-block-head">
+                                                   <a (click)="GridSliderIta();" href="#modal-1" data-target="#modal-1" data-toggle="modal"><img src="../../assets/images/homeGrid/italyGrid.jpg" alt="Italy"></a>
+                                                  </div>
+                                                  <!-- /End gfort Block Head -->
+                                                  <!-- gfort Block Body -->
+                                                  <div class="gfort-block-body">
+                                                     <!-- gfort Block Title -->
+                                                     <div class="gfort-block-title">
+                                                        <h4>ITALY</h4>
+                                                     </div>
+                                                     <!-- /End gfort Block Title -->
+                                                     <!-- gfort Block Content -->
+                                                     <div class="gfort-block-content">
+                                                        <ul class="icon-list">
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Low Tuition Fees.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> IELTS /TOEFL not required.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Less time and easy visa processing.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> 6 months stay back available.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> World capital of fashion
+                                                           </li>
+                                                        </ul>
+                                                        <a routerLink="/study-italy" class="btn btn-gfort">READ MORE</a>
+                                                     </div>
+                                                     <!-- /End gfort Block Content -->
+                                                  </div>
+                                                  <!-- /End gfort Block Body -->
+                                               </div>
+                                               <!-- /End gfort Block Container -->
+                                            </div>
+                                            <!-- /End Image Block -->
+                                         </div>
+                                         <!-- /End col-md-4 -->
+                                         <!-- New Zealand -->
+                                         <!-- col-md-3 -->
+                                         <div class="col-md-3">
+                                            <!-- Image Block -->
+                                            <div class="gfort-block image-block">
+                                               <!-- gfort Block Container -->
+                                               <div class="gfort-block-container">
+                                                  <!-- gfort Block Head -->
+                                                  <div class="gfort-block-head">
+                                                   <a (click)="GridSliderNew();" href="#modal-1" data-target="#modal-1" data-toggle="modal"><img src="../../assets/images/homeGrid/newzealandGrid.jpg" alt="newzealand"></a>
+                                                  </div>
+                                                  <!-- /End gfort Block Head -->
+                                                  <!-- gfort Block Body -->
+                                                  <div class="gfort-block-body">
+                                                     <!-- gfort Block Title -->
+                                                     <div class="gfort-block-title">
+                                                        <h4>NEW ZEALAND</h4>
+                                                     </div>
+                                                     <!-- /End gfort Block Title -->
+                                                     <!-- gfort Block Content -->
+                                                     <div class="gfort-block-content">
+                                                        <ul class="icon-list">
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> World's most recognized education system.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Unique learning environment.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Economically wise and safe.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Payment on visa approval.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> No outright visa rejection.
+                                                           </li>
+                                                        </ul>
+                                                        <a routerLink="/study-newzealand" class="btn btn-gfort">READ MORE</a>
+                                                     </div>
+                                                     <!-- /End gfort Block Content -->
+                                                  </div>
+                                                  <!-- /End gfort Block Body -->
+                                               </div>
+                                               <!-- /End gfort Block Container -->
+                                            </div>
+                                            <!-- /End Image Block -->
+                                         </div>
+                                         <!-- /End col-md-4 -->
+                                         <!-- Poland -->
+                                         <!-- col-md-3 -->
+                                         <div class="col-md-3">
+                                            <!-- Image Block -->
+                                            <div class="gfort-block image-block">
+                                               <!-- gfort Block Container -->
+                                               <div class="gfort-block-container">
+                                                  <!-- gfort Block Head -->
+                                                  <div class="gfort-block-head">
+                                                   <a (click)="GridSliderPol();" href="#modal-1" data-target="#modal-1" data-toggle="modal"><img src="../../assets/images/homeGrid/polandGrid.jpg" alt="Poland"></a>
+                                                  </div>
+                                                  <!-- /End gfort Block Head -->
+                                                  <!-- gfort Block Body -->
+                                                  <div class="gfort-block-body">
+                                                     <!-- gfort Block Title -->
+                                                     <div class="gfort-block-title">
+                                                        <h4>POLAND</h4>
+                                                     </div>
+                                                     <!-- /End gfort Block Title -->
+                                                     <!-- gfort Block Content -->
+                                                     <div class="gfort-block-content">
+                                                        <ul class="icon-list">
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Worldwide recognized, Quality education.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Low Tuition Fees.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> European Union Member.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Schengen Country.
+                                                           </li>
+                                                           <li>
+                                                              <i class="fa fa-asterisk"></i> Save one year in engineering.
+                                                           </li>
+                                                        </ul>
+                                                        <a routerLink="/study-poland" class="btn btn-gfort">READ MORE</a>
+                                                     </div>
+                                                     <!-- /End gfort Block Content -->
+                                                  </div>
+                                                  <!-- /End gfort Block Body -->
+                                               </div>
+                                               <!-- /End gfort Block Container -->
+                                            </div>
+                                            <!-- /End Image Block -->
+                                         </div>
+                                         <!-- /End col-md-4 -->
+                                      </div>
+                                      <!-- /End row -->
+                                   </div>
+                                   <!-- /End Tab Pane -->
+                                </div>
+                                <!-- /End Tab Panes -->
+                             </div>
+                             <!-- /End gfort-tabs -->
+                          </div>
+                          <!-- /End col-md-12 -->
+                       </div>
+                       <!-- /End row -->
+                    </div>
+                    <!-- /End container -->
+                 </div>
+                 <!-- /End Section Container -->
+              </div>
+              <!-- /End gfort Section -->
+             
+              <!-- <div class="gfort-section main-background-color" style="padding-top: 60px; padding-bottom: 30px;">
+               
+                 <div class="section-container">
+                   
+                    <div class="container">
+                     
+                       <div class="row">
+                         
+                          <div class="col-md-12">
+                            
+                             <div class="gfort-block text-block text-center light-color">
+                           
+                                <div class="gfort-block-container">
+                                  
+                                   <div class="gfort-block-body">
+                                      
+                                      <div class="gfort-block-content">
+                                         <h3>CAREER STREAM</h3>
+                                      </div>
+                                     
+                                   </div>
+                                   
+                                </div>
+                                
+                             </div>
+                             
+                          </div>
+                          
+                       </div>
+                       
+                    </div>
+                   
+                 </div>
+                
+              </div> -->
+             
+              <!-- <div class="gfort-section triangle-section">
+                 <div class="section-container">
+                    <div class="container">
+                      
+                       <div class="row">
+
+                          <div class="col-md-12">
+                             <div class="triangle-block triangle-block-center" style="border-color: #3a5784;"></div>
+                          </div>
+                          
+                       </div>
+                       
+                    </div>
+                 </div>
+              </div>
+            
+              <div class="gfort-section">
+                 <div class="section-container">
+                    <div class="container">
+                       <div class="row">
+                          <owl-carousel  [options]="{items: 3, dots: true, navigation: true}"  [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                          <div class="gfort-owl-slider-item">
+                             <div class="gfort-block image-block gfort-block-style-5">
+                                <div class="gfort-block-container">
+                                   <div class="gfort-block-head">
+                                      <a href="#" class="scale-hover overlay-hover-2x">
+                                      <img src="../../assets/images/homecareerflow/slide (1).jpg" alt="HOSPITALITY">
+                                      </a>
+                                   </div>
+                                   <div class="gfort-block-body">
+                                      <div class="gfort-block-title">
+                                         <h4>HOSPITALITY</h4>
+                                      </div>
+                                   </div>
+                                  
+                                </div>
+                               
+                             </div>
+                            
+                          </div>
+
+                          <div class="gfort-owl-slider-item">
+                            
+                             <div class="gfort-block image-block gfort-block-style-5">
+                             
+                                <div class="gfort-block-container">
+                               
+                                   <div class="gfort-block-head">
+                                      <a href="#" class="scale-hover overlay-hover-2x">
+                                      <img src="../../assets/images/homecareerflow/slide (2).jpg" alt="HOSPITALITY">
+                                      </a>
+                                   </div>
+                               
+                                   <div class="gfort-block-body">
+                                     
+                                      <div class="gfort-block-title">
+                                         <h4>HOSPITALITY</h4>
+                                      </div>
+                                     
+                                   </div>
+                                   
+                                </div>
+                                
+                             </div>
+                           
+                          </div>
+                        
+                          <div class="gfort-owl-slider-item">
+                            
+                             <div class="gfort-block image-block gfort-block-style-5">
+                                
+                                <div class="gfort-block-container">
+                                   
+                                   <div class="gfort-block-head">
+                                      <a href="#" class="scale-hover overlay-hover-2x">
+                                      <img src="../../assets/images/homecareerflow/slide (3).jpg" alt="HOSPITALITY">
+                                      </a>
+                                   </div>
+                                   
+                                   <div class="gfort-block-body">
+                                     
+                                      <div class="gfort-block-title">
+                                         <h4>HOSPITALITY</h4>
+                                      </div>
+                                      
+                                   </div>
+                                 
+                                </div>
+                                
+                             </div>
+                          
+                          </div>
+                        
+                          <div class="gfort-owl-slider-item">
+                            
+                             <div class="gfort-block image-block gfort-block-style-5">
+                                
+                                <div class="gfort-block-container">
+                                 
+                                   <div class="gfort-block-head">
+                                      <a href="#" class="scale-hover overlay-hover-2x">
+                                      <img src="../../assets/images/homecareerflow/slide (4).jpg" alt="HOSPITALITY">
+                                      </a>
+                                   </div>
+                                  
+                                   <div class="gfort-block-body">
+                                      
+                                      <div class="gfort-block-title">
+                                         <h4>HOSPITALITY</h4>
+                                      </div>
+                                     
+                                   </div>
+                                 
+                                </div>
+                               
+                             </div>
+                            
+                          </div>
+                          
+                          <div class="gfort-owl-slider-item">
+                           
+                             <div class="gfort-block image-block gfort-block-style-5">
+                               
+                                <div class="gfort-block-container">
+                                   
+                                   <div class="gfort-block-head">
+                                      <a href="#" class="scale-hover overlay-hover-2x">
+                                      <img src="../../assets/images/homecareerflow/slide (5).jpg" alt="HOSPITALITY">
+                                      </a>
+                                   </div>
+                                
+                                   <div class="gfort-block-body">
+                                    
+                                      <div class="gfort-block-title">
+                                         <h4>HOSPITALITY</h4>
+                                      </div>
+                                     
+                                   </div>
+                                  
+                                </div>
+                                
+                             </div>
+                             
+                          </div>
+                         
+                          <div class="gfort-owl-slider-item">
+                            
+                             <div class="gfort-block image-block gfort-block-style-5">
+                             
+                                <div class="gfort-block-container">
+                                  
+                                   <div class="gfort-block-head">
+                                      <a href="#" class="scale-hover overlay-hover-2x">
+                                      <img src="../../assets/images/homecareerflow/slide (6).jpg" alt="HOSPITALITY">
+                                      </a>
+                                   </div>
+                                  
+                                   <div class="gfort-block-body">
+                                     
+                                      <div class="gfort-block-title">
+                                         <h4>HOSPITALITY</h4>
+                                      </div>
+                                     
+                                   </div>
+                                   
+                                </div>
+                                
+                             </div>
+                            
+                          </div>
+                         
+                          <div class="gfort-owl-slider-item">
+                             
+                             <div class="gfort-block image-block gfort-block-style-5">
+                               
+                                <div class="gfort-block-container">
+                                  
+                                   <div class="gfort-block-head">
+                                      <a href="#" class="scale-hover overlay-hover-2x">
+                                      <img src="../../assets/images/homecareerflow/slide (7).jpg" alt="HOSPITALITY">
+                                      </a>
+                                   </div>
+                                  
+                                   <div class="gfort-block-body">
+                                     
+                                      <div class="gfort-block-title">
+                                         <h4>HOSPITALITY</h4>
+                                      </div>
+                                     
+                                   </div>
+                                   
+                                </div>
+                               
+                             </div>
+                             
+                          </div>
+                        
+                          <div class="gfort-owl-slider-item">
+                            
+                             <div class="gfort-block image-block gfort-block-style-5">
+                               
+                                <div class="gfort-block-container">
+                                 
+                                   <div class="gfort-block-head">
+                                      <a href="#" class="scale-hover overlay-hover-2x">
+                                      <img src="../../assets/images/homecareerflow/slide (8).jpg" alt="HOSPITALITY">
+                                      </a>
+                                   </div>
+                                 
+                                   <div class="gfort-block-body">
+                                     
+                                      <div class="gfort-block-title">
+                                         <h4>HOSPITALITY</h4>
+                                      </div>
+                                      
+                                   </div>
+                                  
+                                </div>
+                              
+                             </div>
+                           
+                          </div>
+                      
+                          <div class="gfort-owl-slider-item">
+                          
+                             <div class="gfort-block image-block gfort-block-style-5">
+                              
+                                <div class="gfort-block-container">
+                                   
+                                   <div class="gfort-block-head">
+                                      <a href="#" class="scale-hover overlay-hover-2x">
+                                      <img src="../../assets/images/homecareerflow/slide (9).jpg" alt="HOSPITALITY">
+                                      </a>
+                                   </div>
+                                 
+                                   <div class="gfort-block-body">
+                                    
+                                      <div class="gfort-block-title">
+                                         <h4>HOSPITALITY</h4>
+                                      </div>
+                                      
+                                   </div>
+                                  
+                                </div>
+                               
+                             </div>
+                           
+                          </div>
+                          </owl-carousel>
+                       </div>
+                      
+                    </div>
+                  
+                 </div>
+              
+              </div> -->
+              <!-- /End gfort Section -->
+              <!-- gfort Section -->
+              <div class="gfort-section fullwidth-section pt-0 pb-0">
+                 <!-- Section Container -->
+                 <div class="section-container">
+                    <!-- container -->
+                    <div class="container">
+                       <!-- row -->
+                       <div class="row">
+                          <!-- col-md-12 -->
+                          <div class="col-md-12">
+                             <!-- Call To Action Block -->
+                             <div class="cta-block cta-block-main mb-0">
+                                <!-- Call To Action Block Container -->
+                                <div class="cta-block-container">
+                                   <!-- Call To Action Block Body -->
+                                   <div class="cta-block-body">
+                                      <p>Need help? Call Us Now at <a href="#">+91 730 670 0014</a> or</p>
+                                   </div>
+                                   <!-- /End Call To Action Block Body -->
+                                   <!-- Call To Action Block Button -->
+                                   <div class="cta-block-btn">
+                                      <a routerLink="/contactus" class="btn btn-gfort-white">Contact us now</a>
+                                   </div>
+                                   <!-- /End Call To Action Block Button -->
+                                 
+                                </div>
+                                <!-- /End Call To Action Block Container -->
+                             </div>
+                             <!-- /End Call To Action Block -->
+                          </div>
+                          <!-- /End col-md-12 -->
+                       </div>
+                       <!-- /End row -->
+                    </div>
+                    <!-- /End container -->
+                 </div>
+                 <!-- /End Section Container -->
+              </div>
+              <!-- /End gfort Section -->
+                            <!-- gfort Section -->
+                            <div  class="gfort-section fullwidth-section pt-0 pb-0">
+                              <!-- Section Container -->
+                              <div class="section-container">
+                                 <!-- container -->
+                                 <div class="container">
+                                    <!-- row -->
+                                    <div class="row">
+                                       <!-- col-md-12 -->
+                                       <div class="col-md-12">
+                                          <!-- Call To Action Block -->
+                                          <div style="background-color:white" class="cta-block  mb-0">
+                                             <!-- Call To Action Block Container -->
+                                             <div class="cta-block-container">
+                                                <!-- Call To Action Block Button -->
+                                                <div class="cta-block-btn">
+                                                      <a target="blank" href="assets/Documents/TempusSampleBrochure.pdf" class="btn btn-gfort">Download</a>
+                                                   </div>
+                                                   <!-- /End Call To Action Block Button -->
+                                                <!-- Call To Action Block Body -->
+                                                <div class="cta-block-body">
+                                                   <p>Download Our Brochure</p>
+                                                </div>
+                                                <!-- /End Call To Action Block Body -->
+                                                
+                                              
+                                             </div>
+                                             <!-- /End Call To Action Block Container -->
+                                          </div>
+                                          <!-- /End Call To Action Block -->
+                                       </div>
+                                       <!-- /End col-md-12 -->
+                                    </div>
+                                    <!-- /End row -->
+                                 </div>
+                                 <!-- /End container -->
+                              </div>
+                              <!-- /End Section Container -->
+                           </div>
+           </div>
+           <!-- /End Main Content Container -->
+        </div>
+        <!-- /End Main Content -->
+        
+     </div>
+     <!-- /End Page Body -->
+
+
+             <!-- Modal -->
+             <div class="modal fade" id="modal-1" tabindex="-1" role="dialog">
+               <!-- Modal Dialog -->
+               <div class="modal-dialog" role="document">
+                   <!-- Modal Content -->
+                   <div class="modal-content">
+   
+                       <!-- Modal Body -->
+                       <div class="modal-body">
+                        <owl-carousel  [options]="SlideOptions" [items]="ModalArray" [carouselClasses]="['owl-theme', 'sliding']">
+                           <div class="item" *ngFor="let image1 of ModalArray;let i= index">
+                                 <img class="slide-image" src="{{image1.image}}" height="200px">
+                             </div>                    
+                        </owl-carousel>
+                       </div><!-- /End Modal Body -->
+   
+   
+                   </div><!-- /End Modal Content -->
+               </div><!-- /End Modal Dialog -->
+           </div><!-- /End Modal -->

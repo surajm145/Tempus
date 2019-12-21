@@ -1,0 +1,9 @@
+
+  .jumbotron-cover-image {
+          position: relative;
+          background: #7f0408 url("../../assets/images/COSTOFSTUDY.jpg") center center;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          color: #fff;
+  }
